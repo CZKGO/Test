@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ActivityTheme" parent="AppTheme">
+        <item name="android:windowReturnTransition" >@transition/exit</item>
+        <item name="android:windowEnterTransition">@transition/enter</item>
+        <!--设置退出动画      通过分解方式退出-->
+        <item name="android:windowExitTransition">@transition/exit</item>
+    </style>
+
+</resources>
