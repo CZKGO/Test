@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/op_test1" android:icon="@mipmap/ic_launcher" android:title="menu1"
+        app:showAsAction="always"/>
+    <item android:id="@+id/op_test2" android:icon="@mipmap/ic_launcher" android:title="menu2"
+        app:showAsAction="always"/>
+    <item android:id="@+id/op_test3" android:icon="@mipmap/ic_launcher" android:title="menu3"
+        app:showAsAction="always"/>
+</menu>
