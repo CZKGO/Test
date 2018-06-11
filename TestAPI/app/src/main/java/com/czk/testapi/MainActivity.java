@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list);
         registerForContextMenu(listView);
 
-        //提交测试
         Intent intent = new Intent(this, Activity2.class);
 
         TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
