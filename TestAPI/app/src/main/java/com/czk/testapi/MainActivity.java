@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
                 startVoiceTrigger();
             }
         }
+        ///sdfsdfsdf
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
             Log.d("immersive", ""+isImmersive());
