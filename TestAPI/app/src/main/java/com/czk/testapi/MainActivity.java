@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         stackBuilder.addNextIntent(intent);
         PendingIntent pendingIntent = stackBuilder.getPendingIntent(0,
                 PendingIntent.FLAG_UPDATE_CURRENT);
-
+        //sdfasf
         NotificationCompat.Builder notifyBuilder = new NotificationCompat.Builder(this)
                   /*设置small icon*/
                 .setSmallIcon(R.mipmap.ic_launcher)
