@@ -23,25 +23,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.czk.testapi.Activity2"
-            android:configChanges="fontScale"
-            android:exported="true"
-            android:parentActivityName="com.czk.testapi.MainActivity"/>
-
-        <activity android:name="com.czk.testapi.Activity3" />
-
-        <activity android:name="com.czk.testapi.Activity4" />
-
-        <activity
-            android:name="com.czk.testapi.TransitionActivity"
-            android:theme="@style/ActivityTheme" />
-
-        <activity
-            android:name="com.czk.testapi.Transition2Activity"
-            android:theme="@style/ActivityTheme" />
-
-        <service android:name="com.czk.testapi.MyJobSchedulerService"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
     </application>
 
 </manifest>

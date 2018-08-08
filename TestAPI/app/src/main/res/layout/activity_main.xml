@@ -5,8 +5,9 @@
     android:layout_height="match_parent"
     tools:context="com.czk.testapi.MainActivity">
 
-    <ListView
-        android:id="@+id/list"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent" />
+
 </LinearLayout>
